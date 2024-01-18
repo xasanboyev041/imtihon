@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* start started  */
+header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.wrapperHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  color: #737373;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+  margin-left: 28px;
+}
+.home {
+  color: black;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+
+/* started section  */
+
+section {
+  width: 100%;
+  height: 670px;
+  background-image: url(./images/imagesSection.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.wrapperSection {
+  width: 480px;
+  padding-top: 80px;
+}
+h1 {
+  color: #252b42;
+  font-size: 58px;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+}
+.textsection {
+  color: #737373;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+button {
+  width: 185px;
+  height: 48px;
+  color: white;
+  border-radius: 37px;
+  border: 0 solid;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+  background-color: #ffa62b;
+  margin-top: 35px;
+}
+.learnMore {
+  color: #00a0c1;
+  background-color: #fff;
+  border: 2px solid #00a0c1;
+}
+/* started endSection  */
+
+.list-endSection {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.endSection li {
+  width: 330px;
+  padding: 35px 40px;
+  position: relative;
+  top: -105px;
+}
+.endSection li h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.end {
+  background-color: #00a0c1;
+}
+h2 {
+  color: #252b42;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+}
+.endSection li p {
+  color: #737373;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+.endH2 {
+  color: white;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+}
+.endP {
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+.list-end {
+  background-color: #fff;
+}
+
+/* started article  */
+article {
+  background-color: #fafafa;
+}
+.wrapperArticle {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  color: #252b42;
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+.tectArticle {
+  color: #737373;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+}
+.list-article {
+  display: flex;
+  justify-content: space-around;
+}
+.item-article {
+  width: 230px;
+  padding: 30px 40px;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 50px;
+}
+.text-article {
+  color: #737373;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+}
+/* started two-section  */
+.two-section ul li {
+    width: 230px;
+}
+
+h4 {
+  color: #252b42;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+  padding-bottom: 15px;
+}
+.wrapper-li {
+    padding: 30px;
+}
+

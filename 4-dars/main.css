@@ -1,0 +1,25 @@
+body {
+  background-color: green;
+}
+
+.wrapper {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.title {
+  color: rgb(153, 164, 164);
+}
+.titletwo {
+  color: yellow;
+}
+.titlethree {
+  color: red;
+}
+.home {
+  font-size: 22px;
+}

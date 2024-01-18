@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(78, 15, 117);
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home {
+    width: 150px;
+    height: 150px;
+}
+span {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(21, 5, 67);
+}
+img {
+  color: white;
+}
+
+.food {
+  width: 700px;
+  background-image: url(./images/food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  padding-top: 400px;
+  font-size: 60px6;
+}
